@@ -29,3 +29,15 @@ Ces variables ont été utilisées pour prédire une variable cible continue.
 
 Avant d'appliquer les modèles de régression, des statistiques descriptives ont été générées pour comprendre la distribution des variables. Les mesures de tendance centrale et de dispersion (moyenne, écart-type, minimum, maximum) ont été calculées pour chaque variable afin d'obtenir un aperçu des données.
 
+## Conclusion
+
+Les deux exercices ont permis de mieux comprendre les performances et les comportements des modèles **Ridge**, **Lasso** et **Elastic Net** :
+- **Exercice 1** : Le modèle **Elastic Net** a montré des performances solides, mais la légère différence entre les jeux de test et d'entraînement suggère qu'il pourrait être un peu surajusté.
+- **Exercice 2** : Après optimisation des hyperparamètres, **Ridge** a montré les meilleures performances globales. Cependant, **Lasso** et **Elastic Net** offrent une bonne alternative pour la sélection de variables et la régularisation.
+
+### Recommandations :
+- Si l'objectif est d'optimiser la performance globale sans simplifier le modèle, **Ridge** est le meilleur choix.
+- Si la sélection de variables est une priorité, **Lasso** est préférable.
+- **Elastic Net** est utile lorsque les données présentent des relations complexes entre les variables et que l'on souhaite un compromis entre régularisation et sélection de variables.
+
+
